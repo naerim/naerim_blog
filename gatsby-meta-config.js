@@ -4,7 +4,7 @@ module.exports = {
   author: `naerim`,
   introduction: `Hi there!. I am a student developer.
 My major is software convergence. And I am still Learning!`,
-  siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
+  siteUrl: `https://naerim.netlify.com`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: `naerim`, // Your GitHub account
@@ -28,5 +28,5 @@ My major is software convergence. And I am still Learning!`,
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
   },
-  ga: '1234', // Add your google analytics tranking ID
+  ga: 'UA-187648836-1', // Add your google analytics tranking ID
 }
