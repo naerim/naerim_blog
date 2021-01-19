@@ -1,6 +1,7 @@
 import React from 'react'
 import { StaticQuery, graphql, Link } from 'gatsby'
 import Image from 'gatsby-image'
+import {AiFillGithub, AiFillInstagram} from 'react-icons/all'
 
 import './index.scss'
 
@@ -30,7 +31,7 @@ export const Bio = () => (
                 <div className="author-introduction">{introduction}</div>
                 <p className="author-socials">
                   {social.github && (
-                    <a href={`https://github.com/${social.github}`}>GitHub</a>
+                    <a href={`https://github.com/${social.github}`}><AiFillGithub size="2em"/></a>
                   )}
                   {social.medium && (
                     <a href={`https://medium.com/${social.medium}`}>Medium</a>
@@ -48,6 +49,11 @@ export const Bio = () => (
                   {social.linkedin && (
                     <a href={`https://www.linkedin.com/in/${social.linkedin}/`}>
                       LinkedIn
+                    </a>
+                  )}
+                  {social.instagram && (
+                    <a href={`https://www.instagram.com/in/${social.instagram}/`}>
+                      <AiFillInstagram size="2em"/>
                     </a>
                   )}
                 </p>
@@ -79,6 +85,7 @@ const bioQuery = graphql`
           medium
           facebook
           linkedin
+          instagram
         }
       }
     }
