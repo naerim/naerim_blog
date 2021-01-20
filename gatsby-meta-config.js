@@ -1,9 +1,8 @@
 module.exports = {
-  title: `Naerim.log`,
+  title: `Naerim log`,
   description: `I am still Learning..!`,
   author: `naerim`,
-  introduction: `Hi there!. I am a student developer.
-My major is software convergence. And I am still Learning!`,
+  introduction: `I am still Learning!`,
   siteUrl: `https://naerim.netlify.com`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account

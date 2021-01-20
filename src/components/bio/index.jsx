@@ -52,7 +52,7 @@ export const Bio = () => (
                     </a>
                   )}
                   {social.instagram && (
-                    <a href={`https://www.instagram.com/in/${social.instagram}/`}>
+                    <a href={`https://www.instagram.com/${social.instagram}/`}>
                       <AiFillInstagram size="2em"/>
                     </a>
                   )}
