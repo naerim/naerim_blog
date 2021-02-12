@@ -9,7 +9,7 @@ export const ThumbnailItem = ({ node }) => (
   <Link className={`thumbnail ${TARGET_CLASS}`} to={node.fields.slug}>
     <div key={node.fields.slug}>
       <Title>{node.frontmatter.title || node.fields.slug}</Title>
-      <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />	      <time className="thumbnail-date" dateTime={node.frontmatter.date}>
+      <time className="thumbnail-date" dateTime={node.frontmatter.date}>
       {node.frontmatter.date}
       </time>
       <Description dangerouslySetInnerHTML={{ __html: node.excerpt }} />
